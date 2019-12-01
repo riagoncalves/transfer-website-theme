@@ -1,0 +1,29 @@
+h1, h2, h3 , a {
+  font-family: $arimo;
+}
+
+p {
+  font-family: $roboto;
+}
+
+.text {
+  &-small {
+    font-size: .8rem;
+  }
+
+  &-mid {
+    font-size: 1rem;
+  }
+
+  &-big {
+    font-size: 2rem;
+  }
+
+  &-subtitle {
+    font-size: 4rem;
+  }
+
+  &-title {
+    font-size: 5rem;
+  }
+}

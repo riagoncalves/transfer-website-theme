@@ -1,14 +1,16 @@
-/* Settings */
-@import 'settings/fonts';
-@import 'settings/responsive-settings';
-
 /* Tools */
 @import 'tools/mixins';
 @import 'tools/variables';
+@import 'tools/helper';
+
+/* Settings */
+@import 'settings/typography';
+@import 'settings/responsive-settings';
 
 /* Base */
 @import 'base/reset';
 @import 'base/page';
 
-/* Objects */
-
+/* Layouts */
+@import 'layouts/header';
+@import 'layouts/footer';
