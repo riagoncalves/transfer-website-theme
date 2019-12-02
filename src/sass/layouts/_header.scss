@@ -26,10 +26,10 @@ header {
   }
 
   .btn {
-    padding: .5rem 1rem;
     text-align: center;
     border-right: 1px solid $grey;
     background-color:  $light-grey;
+    transition: 200ms;
 
     &-container {
       border-radius: 5px;
@@ -38,6 +38,16 @@ header {
 
     &:last-child {
       border: none;
+    }
+
+    &:hover {
+      background-color: $grey;
+    }
+
+    a {
+      display: inline-block;
+      padding: .5rem 1rem;
+      color: $black;
     }
   }
 }

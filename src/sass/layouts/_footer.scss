@@ -4,4 +4,13 @@ footer {
     text-align: right;
     letter-spacing: 1px;
   }
+
+  a {
+    color: $black;
+    transition: 200ms;
+
+    &:hover {
+      color: $grey;
+    }
+  }
 }
