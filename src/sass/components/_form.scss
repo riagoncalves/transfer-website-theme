@@ -2,8 +2,13 @@
   &-container {
     padding: 1rem;
     border-radius: 10px;
-    background-color: $light-grey;
+    background-color: $white;
     overflow: hidden;
     box-shadow: 10px 10px 25px 0px rgba($color: $black, $alpha: .75);
+  }
+
+  input {
+    border: none; 
+    outline: none;
   }
 }
