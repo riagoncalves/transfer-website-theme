@@ -13,7 +13,7 @@ const pages = {
 
   init() {
     let menuItems = [].slice.call(document.querySelectorAll('.btn > a'));
-    
+
     menuItems.forEach(menuItem => {
       menuItem.addEventListener('click', (el) => {
         el.preventDefault();
@@ -24,6 +24,7 @@ const pages = {
 };
 
 function init() {
+  console.log("%c| 🔧 Developed by riagoncalves.dev |", "background: #111; color: #eee; border-radius:2px; padding:.75rem;");
   pages.init();
 }
 
