@@ -6,6 +6,18 @@
   display: none;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.ovf-hidden {
+  overflow: hidden;
+}
+
 .flex-1 {
   flex: 1;
 }

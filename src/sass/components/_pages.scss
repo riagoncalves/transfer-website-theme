@@ -1,0 +1,14 @@
+.page {
+  width: 80%;
+  height: 100%;
+  top: 0;
+  left: 20%;
+  border-radius: 1rem;
+  background: $white;
+  box-shadow: -14px 12px 27px 0px rgba($color: $black, $alpha: 0.75);
+  transition: 700ms;
+
+  &.hidden {
+    left: 110%;
+  }
+}

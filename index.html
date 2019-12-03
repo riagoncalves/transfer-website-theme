@@ -28,14 +28,14 @@
           <a href="" class="logo"><img src="assets/images/logo.svg" alt="Transfer" draggable="false"/></a>
           <div class="flex-1 dflex jc-end">
             <ul class="btn-container dflex">
-              <li class="btn"><a href="">About</a></li>
-              <li class="btn"><a href="">Help</a></li>
+              <li class="btn"><a href="" data-page="about">About</a></li>
+              <li class="btn"><a href="" data-page="help">Help</a></li>
             </ul>
           </div>
         </nav>
       </header>
-      <main class="flex-1 dflex ai-center">
-        <div class="form-container">
+      <main class="flex-1 dflex ai-center relative">
+        <section class="form-container">
           <form action="" class="form dflex direction-col">
             <h2>Ship it away</h2>
             <input type="file" name="upload" id="upload" multiple class="none">
@@ -61,8 +61,10 @@
               </label>
             </div>
           </form>
-        </div>
+        </section>
       </main>
+      <section id="about" class="page  absolute hidden"></section>
+      <section id="help" class="page absolute hidden"></section>
       <footer>
         <p>Copyright © 2019 <a href="https://riagoncalves.dev/" target="_blank">riagoncalves.dev</a></p>
       </footer>
