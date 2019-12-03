@@ -40,10 +40,12 @@
       font-weight: $sbold;
       border-radius: 10px;
       background-color: $grey;
-      transition: 200ms;
+      transition: 300ms;
 
       &:hover {
-        transform: scale(1.2);
+        color: $white;
+        background-color: $blue;
+        transform: scale(1.1);
       }
     }
   }
