@@ -25,7 +25,7 @@
     <div class="wrapper rotative-bg dflex direction-col">
       <header>
         <nav class="dflex">
-          <a href="" class="logo"><img src="assets/images/logo.svg" alt="Transfer"/></a>
+          <a href="" class="logo"><img src="assets/images/logo.svg" alt="Transfer" draggable="false"/></a>
           <div class="flex-1 dflex jc-end">
             <ul class="btn-container dflex">
               <li class="btn"><a href="">About</a></li>
@@ -38,9 +38,28 @@
         <div class="form-container">
           <form action="" class="form dflex direction-col">
             <h2>Ship it away</h2>
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            <input type="file" name="upload" id="upload" multiple class="none">
+            <label for="upload" class="dflex ai-center form-upload">
+              <img src="assets/images/upload-icon.svg" alt="Upload" draggable="false">
+              <div class="flex-1 form-upload-text">
+                <p>Drop files here</p>
+                <p><span>or select a file</span></p>
+              </div>
+            </label>
+            <div class="has-float-label form-input">
+              <input id="email" type="email" placeholder=" "/>
+              <label for="email">Email</label>
+            </div>
+            <div class="has-float-label form-input">
+              <input id="message" type="text" placeholder=" "/>
+              <label for="message">Message</label>
+            </div>
+            <div class="form-submit dflex jc-center">
+              <label for="submit">
+                <input type="submit" id="submit" name="submit" class="none">
+                <span>SHIP IT</span>
+              </label>
+            </div>
           </form>
         </div>
       </main>
