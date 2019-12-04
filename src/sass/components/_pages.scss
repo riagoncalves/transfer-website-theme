@@ -47,4 +47,21 @@
       font-weight: $bold;
     }
   }
+
+  &-text {
+    max-width: 60%;
+
+    p {
+      padding: 1rem 0;
+    }
+
+    strong {
+      font-weight: $bold;
+    }
+
+    a {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
 }
