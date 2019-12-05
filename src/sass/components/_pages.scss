@@ -47,6 +47,10 @@
       font-size: 4rem;
       font-weight: $bold;
     }
+
+    @include media-query('tab') {
+      padding: 0 1rem;
+    }
   }
 
   &-text {
@@ -64,12 +68,22 @@
       color: $blue;
       text-decoration: underline;
     }
+
+    @include media-query('tab') {
+      max-width: 90%;
+    }
   }
 
   &-grid {
     max-width: 80%;
     grid-gap: 2rem 2rem;
     grid-template-columns: repeat(2, 1fr);
+
+    @include media-query('tab') {
+      max-width: 100%;
+      grid-row-gap: 1rem;
+      grid-template-columns: 1fr;
+    }
   }
 
   &-grid-item{
