@@ -28,6 +28,7 @@ const pages = {
     menuItems.forEach(menuItem => {
       menuItem.addEventListener('click', (el) => {
         el.preventDefault();
+        this.closePage();
         this.openPage(menuItem.dataset.page);
       });
     });
