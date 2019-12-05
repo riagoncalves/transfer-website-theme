@@ -1,5 +1,0 @@
-Needs a form
-Unsplash api rotatin images
-About page
-Help page with faq
-Drag/drop effect 
