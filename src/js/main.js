@@ -22,6 +22,7 @@ const pages = {
   },
 
   init() {
+    console.log("%c| 🔧 Developed by riagoncalves.dev |", "background: #111; color: #eee; border-radius:2px; padding:.75rem;");
     let menuItems = [].slice.call(document.querySelectorAll('.btn > a'));
     let closeBtns = [].slice.call(document.querySelectorAll('.page-close'));
 
@@ -42,18 +43,4 @@ const pages = {
   }
 };
 
-function init() {
-  console.log("%c| 🔧 Developed by riagoncalves.dev |", "background: #111; color: #eee; border-radius:2px; padding:.75rem;");
-  pages.init();
-}
-
-function ready() {
-  if (document.readyState === 'complete') {
-    init();
-  } else {
-      document.addEventListener('DOMContentLoaded', init);
-  }
-}
-
-ready();
-
+document.addEventListener('DOMContentLoaded', pages.init());
